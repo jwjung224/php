@@ -7,6 +7,7 @@
     <body>      
     
     <?php
+	/* This file display and test class Car & eCar */
 	// just in case for connecting database
 	include 'connect.php';
 	include 'car.php';	
@@ -33,12 +34,11 @@
         echo "Entire information after set function used <br />\r\n";
         $myCar->showInfo();
 
-
 	// test new eCar class jimCar
 	$jimCar = new eCar("Tesla", "Model S", "2017", "4", "Electric");
 	$jimCar->showInfo();
 
-
+	// test to see if function setModel is working properly
 	$jimCar->setModel("Model X");
 	echo "Model changed to ->";
 	echo "&nbsp Model: " . $jimCar->getModel(). "<br />\r\n";
