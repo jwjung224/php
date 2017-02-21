@@ -17,3 +17,6 @@ A PHP project that uses WAMP (Windows, Apache, MySQL, PHP).
 ### MySQL & PHP
 <img src="http://studmedia.ge/sites/default/files/php-mysql-development_0.png">
 <br>
+
+### File
+PHP files are all located at xampp -> htdocs foler in Xampp
