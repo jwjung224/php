@@ -78,8 +78,7 @@
 	echo fibo(10);
 	echo $nl;
 
-	/* Testing bubble sort */
-	
+	/* Testing bubble sort */	
 	$testArray = array(11, 22, 5, 2, 13, 7, 19);
 	shuffle($testArray);
 	echo "Array element (Before sorting): ";
