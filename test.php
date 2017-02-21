@@ -11,13 +11,13 @@
     	1. Database name is mainbd.
     	2. DB has table name example.
     	3. table example has four columns id, username, fname, and lname.
-    	ex) +------+------------+---------+---------+
+    	   ex) 	+------+------------+---------+---------+
     		|  id  |  username  |  fname  |  lname  |
     		+------+------------+---------+---------+
     		|  12  |  seahawks  |  joon   |  jung   |
-			+------+------------+---------+---------+
-			|  99  |  fun206    |  alex   |  smith  |
-			+------+------------+---------+---------+
+		+------+------------+---------+---------+
+		|  99  |  fun206    |  alex   |  smith  |
+		+------+------------+---------+---------+
     */
 
 	// connecting database and relevant php files
@@ -28,7 +28,7 @@
 	$nl = "<br />\r\n";
  
 	// example of getting data from Database and fetching it   
-    $query = $dbConnect->prepare('SELECT * FROM example');
+    	$query = $dbConnect->prepare('SELECT * FROM example');
 	$query->execute();
 	$cur = $query->fetchAll();
 
@@ -40,8 +40,8 @@
 	$dbConnect = null;
 
 	/* Testing car.php (OOP class) */	
-    // create new car class
-    $myCar = new Car("Honda", "Civic", "2004", "3");
+        // create new car class
+    	$myCar = new Car("Honda", "Civic", "2004", "3");
         
 	// testing new Car class myCar
 	echo "<br />\r\n";
@@ -60,8 +60,8 @@
 	echo "Door changed to ->";
 	echo "&nbsp Door: ". $myCar->getDoor(). $nl;
 
-    echo "Entire information after set function used". $nl;
-    $myCar->showInfo();
+    	echo "Entire information after set function used". $nl;
+    	$myCar->showInfo();
 
 	// testing new eCar class jimCar
 	$jimCar = new eCar("Tesla", "Model S", "2017", "4", "Electric");
@@ -93,7 +93,7 @@
 	foreach($result as $cur)
 		echo $cur. " ";
 	
-	// end
-	?>
+    // end
+    ?>
     </body>
 </html>
