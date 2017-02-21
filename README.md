@@ -15,5 +15,5 @@ A PHP project that uses WAMP (Windows, Apache, MySQL, PHP).
 <br>
 
 ### MySQL & PHP
-<img src="http://www.shanviawebtechnologies.com/wp-content/uploads/2015/11/PHP-MYSQL-TUTORIAL.png">
+<img src="http://studmedia.ge/sites/default/files/php-mysql-development_0.png">
 <br>
