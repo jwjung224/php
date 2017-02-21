@@ -7,8 +7,8 @@
     <body>      
     
     <?php
-        // This is OOP style car design in PHP
-	// base class Car
+    // This is OOP style car design in PHP
+    // base class Car
     class Car {
     // use all variables to protected in order to use variables in inheritance calss
         protected $maker;
@@ -67,23 +67,23 @@
             }            
     }
          
-	// derived class called elecCar to create electric car
-	class eCar extends Car{
-	    protected $type;
+    // derived class called elecCar to create electric car
+    class eCar extends Car{
+	protected $type;
 	   
-    	function __construct($incMaker, $incModel, $incYear, $incDoor, $incType){
-	    	parent::__construct($incMaker, $incModel, $incYear, $incDoor);
-			$this->type = $incType;
-	    }
-
-	    function getType(){
-	    	return $this->type;
-	    }
-	
-	    function setType($incType){
+	function __construct($incMaker, $incModel, $incYear, $incDoor, $incType){
+	    parent::__construct($incMaker, $incModel, $incYear, $incDoor);
 		$this->type = $incType;
-	    }
 	}
+
+	function getType(){
+ 	    return $this->type;
+	}
+	
+	function setType($incType){
+	    $this->type = $incType;
+	}
+    }
     ?>
     </body>
 </html>
