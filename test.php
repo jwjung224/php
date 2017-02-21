@@ -36,7 +36,7 @@
         echo  "username is ". $row['username']. "\n";
 	} 		
 
-    // close connection to DB since it did not closed in connect.php
+    	// close connection to DB since it did not closed in connect.php
 	$dbConnect = null;
 
 	/* Testing car.php (OOP class) */	
