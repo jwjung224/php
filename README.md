@@ -7,7 +7,7 @@ Joon Jung
 A PHP project that uses WAMP (Windows, Apache, MySQL, PHP).
 
 ### Xampp
-<img src="http://managewp.com/wp-content/uploads/2012/08/xampp-logo.png">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMEPjCyWSY8baKjXEBIr00WK-J8krmb716sNMs2tYVy-0nDKcj">
 <br>
 
 ### Apache
