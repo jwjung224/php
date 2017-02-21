@@ -19,4 +19,4 @@ A PHP project that uses WAMP (Windows, Apache, MySQL, PHP).
 <br>
 
 ### File
-PHP files are all located at xampp -> htdocs foler in Xampp
+PHP files has to placed in xampp -> htdocs foler while using Xampp
